@@ -2,7 +2,7 @@
   "name": "valo-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abhinavdubeyad9.github.io/Portfolio/",
+  "homepage": "http://abhinavdubey.me/",
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
