@@ -15,7 +15,7 @@ const Navbar = () => {
             <i className='fa fa-code'></i>
           </div>
 
-          <ul className='nav-menu'>
+          <ul className={`nav-menu ${click ? '' : 'res-close'}`}>
             <li className='nav-item'>
               <div
                 activeClassName='active'
@@ -45,13 +45,17 @@ const Navbar = () => {
             </li>
           </ul>
 
+          <button
+            className={`button button--ujarak button--border-medium button--round-s button--text-thick ${
+              click ? '' : 'res-close'
+            }`}
+          >
+            Hire Me!
+          </button>
+
           <div className='nav-icon' onClick={handleClick}>
             <i className={click ? 'fa fa-times' : 'fa fa-bars'}></i>
           </div>
-
-          <button class='button button--ujarak button--border-medium button--round-s button--text-thick'>
-            Hire Me!
-          </button>
         </div>
       </div>
     </div>
