@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import { Avatar } from '@mui/material';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -10,7 +11,8 @@ const Navbar = () => {
       <div className={click ? 'main-container' : ''} onClick={() => Close()} />
       <div className='navbar' onClick={(e) => e.stopPropagation()}>
         <div className='nav-container'>
-          <div exact to='/' className='nav-logo'>
+          <div className='nav-logo'>
+            {/* <Avatar>Ad9</Avatar> */}
             AD9
             <i className='fa fa-code'></i>
           </div>
